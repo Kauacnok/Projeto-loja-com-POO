@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script1.js"></script>
+	<title>Loja</title>
+</head>
+<body>
+	<header>
+		<h1>Loja 1.0</h1>
+	</header>
+	
+	<main>
+		<div class="title">
+			<h2>Produtos</h2>
+			<span>Listas de produtos da loja</span>
+		</div>
+		<div class="card">
+			<h2 id="titleAction">Adicionar produto</h2>
+			<div class="lineinput">
+				<label for="product">Produto</label>	
+				<input type="text" id="product" name="product_name" placeholder="Nome do produto">
+			</div>
+
+			<div class="lineinput">
+				<label for="price">Preço</label>	
+				<input type="text" id="price" name="price_name" placeholder="Valor do produto">
+			</div>
+
+			<button onclick="product.saveProduct()" id="btn1">Salvar</button>
+			<button onclick="product.clearData()">Cancelar</button>	
+		</div>
+
+		<div class="content">
+			<table border="1">
+				<thead>
+					<th class="center">ID</th>
+					<th>Produto</th>
+					<th>Valor</th>
+					<th class="center">Ações</th>
+				</thead>
+				<tbody id="tbody">
+					
+				</tbody>
+			</table>
+		</div>
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: #fafbfc;
+}
+
+header {
+	background-color: blueviolet;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+main {
+	padding: 30px 50px;
+}
+
+.card {
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.card h2 {
+	margin-bottom: 20px;
+}
+
+.lineinput {
+	display: grid;
+	margin-bottom: 10px;
+}
+
+input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: 0
+}
+
+button {
+	border: 0px;
+	padding: 10px;
+	outline: 0;
+	background-color: blueviolet;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	transition-duration: 1s;
+}
+
+button:hover {
+	background-color: rgb(102, 31, 168);
+	cursor: pointer;
+}
+
+.content {
+	margin-top: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 100%
+}
+
+table th {
+	background-color: rgb(214, 214, 214);
+}
+
+table th, td {
+	text-align: left;
+	padding: 1px 5px;
+}
+
+table td img {
+	width: 22px;
+	margin-right: 10px;
+	transition-duration: 0.5s;
+}
+
+table td img:hover {
+	background-color: lightgray;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
