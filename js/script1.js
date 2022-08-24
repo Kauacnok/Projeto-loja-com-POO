@@ -74,10 +74,10 @@ class Product {
 		let regexPrice = /^\d+$/g
 		let regexProductName = /^\w|\d+.+/g
 
-		if(product.productName == "" || regexProductName.test(product.productName) == false) {
+		if(regexProductName.test(product.productName) == false) {
 			message += "Este campo deve iniciar com um caractere ou numero, verifique o nome do produto \n"
 		}
-		if(product.price == "" || regexPrice.test(product.price) == false) {
+		if(regexPrice.test(product.price) == false) {
 			message += "Este campo só pode ser preenchido com numeros, verifique o preço do produto"
 		}
 		if (message != '') {
