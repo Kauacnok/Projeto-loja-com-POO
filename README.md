@@ -28,7 +28,7 @@ Você pode visualizar o layout do projeto através do link abaixo:
 Esse projeto foi focado na ideia de aprender programação orientada a objetos (POO), e também apliquei o que estudei o básico do expressões regulares (regex) para verificar se os campos preenchidos são válidos
 
 
-[Programador Espartano: Curso de Javascript Puro Orientado a Objetos feito pelo](https://www.youtube.com/playlist?list=PLGwqoftZstLZUQGt3GeLpI-QAZaT8ccVG)
+[Programador Espartano: Curso de Javascript Puro Orientado a Objetos(https://www.youtube.com/playlist?list=PLGwqoftZstLZUQGt3GeLpI-QAZaT8ccVG)
 
 [Ser Frontend: Regex com Javascript: Aprenda Expressões Regulares de uma vez por todas](https://www.youtube.com/playlist?list=PL1dUY2RYa2RjwdAQcflwSlN0dSoi7xsjh)
 
